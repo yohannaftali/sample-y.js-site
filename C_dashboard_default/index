@@ -1,0 +1,10 @@
+(function (window, undefined) {
+    var param = {
+        dashboard: 'default',
+        title: 'Default Dashboard',
+        callback: function(){
+
+        }
+    };
+    const dashboard = new yDashboard(param)
+})(window)
