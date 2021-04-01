@@ -1,3 +1,4 @@
+<!DOCTYPE HTML>
 <html>
 <head>
 	<title><?php echo $title;?></title>
@@ -12,35 +13,29 @@
 	<script type="text/javascript" language="javascript" charset="UTF-8" src="js/framework/y.app.js"></script>
 	<script type="text/javascript" language="javascript" charset="UTF-8" src="js/framework/y.loader.js"></script>
 	<script type="text/javascript" language="javascript" charset="UTF-8" src="js/framework/y.panel.js"></script>
-	<div>Implementation y.js</div>
 </head>
 <body class="blue-grey darken-4 xxx">
-<div id="style_selector" class="hidden-xs close-style">
-	<div id="style_selector_container" style="display:block">
-
-	<div style="height:5px;line-height:25px; text-align: center">
-</div>
-	<script id = "data_script" type="text/javascript">
-		var data = {}
-		var webApp
-		data.userId = 1
-		data.date = new Date().toLocaleString()
-		data.username = 'test'
-		data.title = 'test'
-		data.dashboard = 'default'
-		data.modules = ['test']
-		data.themes = 'default'
-		data.footer = 'test'
-	</script>
-	<script type="text/javascript" language="javascript" charset="UTF-8" src="js/framework/y.form.js"></script>
-	<script type="text/javascript" language="javascript" charset="UTF-8" src="js/framework/y.dashboard.js"></script>
-	<script type="text/javascript" language="javascript" charset="UTF-8" src="js/framework/y.ready.js"></script>
-	<script type="text/javascript" language="javascript" charset="UTF-8"> 
-		console.log('test')
-		$( document ).ready(function() {
-			Main.init();
-			console.log( "ready!" );
-		})
-	</script>
 </body>
+<script id = "data_script" type="text/javascript">
+	var data = {}
+	var webApp
+	data.userId = 1
+	data.date = new Date().toLocaleString()
+	data.username = 'test'
+	data.title = 'test'
+	data.dashboard = 'default'
+	data.modules = ['test']
+	data.themes = 'default'
+	data.footer = 'test'
+</script>
+<script type="text/javascript" language="javascript" charset="UTF-8" src="js/framework/y.form.js"></script>
+<script type="text/javascript" language="javascript" charset="UTF-8" src="js/framework/y.dashboard.js"></script>
+<script type="text/javascript" language="javascript" charset="UTF-8" src="js/framework/y.ready.js"></script>
+<script type="text/javascript" language="javascript" charset="UTF-8"> 
+	console.log('test')
+	$( document ).ready(function() {
+		Main.init();
+		console.log( "ready!" );
+	})
+</script>
 </html>
